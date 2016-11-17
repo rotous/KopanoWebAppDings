@@ -2,7 +2,7 @@
 A free font that can be used to display the WingDings smilies that Outlook creates.
 
 ## Introduction
-At Kopano we had an issue with HTML mails that were sent with Microsoft Outlook and that contained smilies. When a user types an ascii smilie, e.g. :), Outlook will convert this to a WingDings smilie, e.g. <span style="font-family:Wingdings">J</span>. Needless to say that any user that was using our mail client Kopano WebApp and didn't have the Wingdings font installed (or if it was installed and the user was using FireFox which blocks symbol fonts) just saw a strange J in the message. To fix the problem we decided to create our own font that we can use to display smilies without changing the original message.
+At Kopano we had an issue with HTML mails that were sent with Microsoft Outlook and that contained smilies. When a user types an ascii smilie, e.g. :), Outlook will convert this to a WingDings smilie, e.g. &lt;span style="font-family:Wingdings"&gt;J&lt;/span&gt;. Needless to say that any user that was using our mail client Kopano WebApp and didn't have the Wingdings font installed (or if it was installed and the user was using FireFox which blocks symbol fonts) just saw a strange J in the message. To fix the problem we decided to create our own font that we can use to display smilies without changing the original message.
 
 ## Usage
 To use the font on webpages copy the fonts directory to your server and add the following lines to your CSS.
